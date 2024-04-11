@@ -2,10 +2,6 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from pymongo import MongoClient
-from rasa.core.tracker_store import MongoTrackerStore
-import textwrap
-import pprint
-
 
 # uri = "mongodb+srv://shahazeer3:medscribe@cluster0.12pmea0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
