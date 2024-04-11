@@ -1,0 +1,172 @@
+version: "3.1"
+
+rules:
+  # - rule: Trigger action_save_conversation
+  #   steps:
+  #     - intent: "*"
+  #     - action: action_save_conversation
+
+  - rule: ask to help when user says hello
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_select_one
+
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: out of scope
+    steps:
+      - intent: out_of_scope
+      - action: utter_please_rephrase
+
+  - rule: users want to know about case
+    steps:
+      - intent: case_study
+      - action: action_get_case_studies
+
+  - rule: user wants to search for a case study
+    steps:
+      - intent: search_case_study
+      - action: action_search_case_studies
+
+  - rule: user wants to search for a doctor
+    steps:
+      - intent: search_doctors
+      - action: action_seach_doctors
+
+  - rule: user wants to know medication for white sputum
+    steps:
+      - intent: inform_mucus_color_white
+      - action: utter_white_sputum
+
+  - rule: user wants to know medication for yellow sputum
+    steps:
+      - intent: inform_mucus_color_Yellow
+      - action: utter_yellow_sputum
+
+  - rule: user wants to know medication for red sputum
+    steps:
+      - intent: inform_mucus_color_red
+      - action: utter_red_sputum
+
+  - rule: user want to go path dry cough
+    steps:
+      - intent: inform_no_sputum
+      - action: utter_dry_cough
+
+  - rule: user want to go path fever
+    steps:
+      - intent: body_temperature
+      - action: action_check_temperature
+      - action: utter_fever_duration
+
+  - rule: user want to go path fever today
+    steps:
+      - intent: inform_fever_today
+      - action: utter_fever_today
+
+  - rule: user want to go path fever recurring
+    steps:
+      - intent: inform_fever_recurring
+      - action: utter_fever_recurring
+
+  - rule: user want to go path constipation herbal
+    steps:
+      - intent: herbal_remedy
+      - action: utter_constipation_herbal
+
+  - rule: user want to go path constipation OTC
+    steps:
+      - intent: otc_remedy
+      - action: utter_constipation_OTCmedication
+
+  - rule: user want to go path jaundice severe
+    steps:
+      - intent: inform_yes_discoloration
+      - action: utter_have_jaundice_severe
+
+  - rule: user want to go path jaundice moderate
+    steps:
+      - intent: inform_no_discoloration
+      - action: utter_have_jaundice_moderate
+
+  - rule: user want to go path jaundice symptoms
+    steps:
+      - intent: inform_yes_abdominal_pain
+      - action: utter_ask_discoloration
+
+  - rule: fallback
+    steps:
+      - intent: nlu_fallback
+      - action: utter_please_rephrase
+
+  - rule: are you a bot
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  # - rule: show images if headache
+  #   steps:
+  #     - intent: problem_headache
+  #     - action: utter_headache_image
+  #     - action: utter_headache_question
+
+  - rule: reply with drug information when slot
+    steps:
+      - intent: problem_drug-info
+      - action: utter_drug_info
+    wait_for_user_input: false
+
+  - rule: continuation for drug info 1
+    steps:
+      - action: utter_drug_info
+      - action: utter_drug_usage
+    wait_for_user_input: false
+
+  - rule: continuation for drug info 1
+    steps:
+      - action: utter_drug_usage
+      - action: utter_drug_side_effects
+    wait_for_user_input: false
+
+  - rule: continuation for drug info 2
+    steps:
+      - action: utter_drug_side_effects
+      - action: utter_anything-else
+
+  - rule: user want info on drug
+    steps:
+      - intent: info_on_drugs
+      - action: utter_ask_about_drug
+
+  - rule: user want symptom checker
+    steps:
+      - intent: describe_symptoms
+      - action: utter_check_symptoms
+
+  - rule: want to ask question
+    steps:
+      - intent: want_to_ask_question
+      - action: utter_ask_question
+      - action: utter_select_one
+
+  # - rule: user wants help
+  #   steps:
+  #     - action: utter_anything-else
+  #     - intent: affirm
+  #     - action: utter_ask_question
+
+  # - rule: user doesn't want help
+  #   steps:
+  #     - action: utter_anything-else
+  #     - intent: deny
+  #     - action: utter_goodbye
+
+  # - rule: user doesn't want help 2
+  #   steps:
+  #     - action: utter_anything-else
+  #     - intent: goodbye
+  #     - action: utter_goodbye
