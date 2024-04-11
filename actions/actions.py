@@ -2,6 +2,8 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from pymongo import MongoClient
+import random
+
 
 # uri = "mongodb+srv://shahazeer3:medscribe@cluster0.12pmea0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -112,24 +114,28 @@ class ActionCheckTemperature(Action):
 class ActionSearchDoctors(Action):
     def name(self) -> Text:
         return "action_seach_doctors"
-    
+
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         doctor_type = next(tracker.get_latest_entity_values("doctor"), None)
-        
-        collection_Doctor = db["Doctors"]
-        
-        # Search for doctors based on the provided type
-        doctors = collection_Doctor.find({"specialization": doctor_type})
-        doctor_list = [doctor["name"] for doctor in doctors]
-        
-        # Close the MongoDB connection
-        client.close()
-        
-        if doctor_list:
-            message = f"Here are some {doctor_type} doctors you can consider: {', '.join(doctor_list)}"
+
+        doctors = db["Doctors"].find({"type": doctor_type})
+
+        if doctors:
+                doctor_list = []
+                all_doctors = list(doctors["doctors"].values())
+                selected_doctors = random.sample(all_doctors, min(3, len(all_doctors)))
+                for doctor_details in selected_doctors:
+                    doctor_info = f"Name: {doctor_details[0]}\nAddress: {doctor_details[1]}\nPhone: {doctor_details[2]}\nRating: {doctor_details[3]}"
+                    doctor_list.append(doctor_info)
+                if doctor_list:
+                    message = f"Here are some {doctor_type} doctors you can consider:\n\n"
+                    message += "\n\n".join(doctor_list)
+                else:
+                    message = f"Sorry, we couldn't find any {doctor_type} doctors at the moment."
         else:
             message = f"Sorry, we couldn't find any {doctor_type} doctors at the moment."
-        
-        dispatcher.utter_message(message)
-        
+            
+
+        dispatcher.utter_message(text=message)
+
         return []
