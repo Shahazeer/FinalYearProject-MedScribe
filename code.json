@@ -1,0 +1,457 @@
+[
+  {
+    "type": "General Physicians",
+    "doctors": [
+      {
+        "name": "Dr. Girish M",
+        "address": "No. 104, 1st Floor, N J Lotus Avenue Building, Bunts Hostel, Kadri Road, Bunts Hostel Road, Mangalore - 575003 (Near Bunts Hostel, Opposite C V Nayak Hall, Next to Electrical Point)",
+        "phone": "07947146945",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Shrinath S",
+        "address": "302 Kushe Sadana, 3rd Floor, Kodialbail, Mangalore - 575003",
+        "phone": "7947114261",
+        "rating": "4.9"
+      },
+      {
+        "name": "Dr. Leo Francis Tauro",
+        "address": "1st Floor Immanuel Building, Shivbagh road, Kadri, Mangalore - 575002 (Opposite KFC)",
+        "phone": "7947120531",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Hegde B M",
+        "address": "Veigas Compound, Falnir, Mangalore - 575001",
+        "phone": "7947121378",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. Goutham Mk Ajila",
+        "address": "Junction, Bendoorwell, Mangalore, Kankanady, Mangalore - 575002 (Opposite Radha Medicals)",
+        "phone": "7947123374",
+        "rating": "4.9"
+      },
+      {
+        "name": "Dr. Abhishek K. Phadke",
+        "address": "Pumpwell Cir, Nanthoor, Kadri, Mangalore - 575002",
+        "phone": "7947125728",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Shantharam M Shetty",
+        "address": "Medical Chamber, Don Bosco Hall, Mangaluru, Cross Road, Bunder, Mangalore - 575001 (Near Don Bosco Hall,Hampankatta)",
+        "phone": "7947125767",
+        "rating": "4.6"
+      },
+      {
+        "name": "Dr. Hansrajalva",
+        "address": "C/o Vinaya Hospital & Research Centre, Pinto Lane, Karangalpady, Mangalore - 575003",
+        "phone": "7947141890",
+        "rating": "4.1"
+      },
+      {
+        "name": "Dr. Dinesha",
+        "address": "Essel Willcon Building 1st Floor, Kankanady Road, Bendoorwell, Mangalore - 575002 (Above Radha Medical,Bendoorwell Circle ,Kankanady)",
+        "phone": "9448451638",
+        "rating": "5.0"
+      },
+      {
+        "name": "Dr. Vinay",
+        "address": "Sanvi Shree, 7th Cross, 2nd Main, Land Links Township, Derebail, Mangaluru, Konchady, Mangalore - 575008",
+        "phone": "7942678898",
+        "rating": "4.9"
+      }
+    ]
+  },
+  {
+    "type": "Endocrinologists",
+    "doctors": [
+      {
+        "name": "Dr. Ganesh H K",
+        "address": "Endodiab Clinic, G5 Classic Gateway Building, Pumpwell, Mangalore - 575002 (Behind Ganesh Medicals)",
+        "phone": "7942695262",
+        "rating": "3.5"
+      },
+      {
+        "name": "Dr. Abdul Mansoor",
+        "address": "Indiana Hospital and Heart Institute Ltd, Pumpwell, Mangalore - 575002 (Near MAHAVEER CIRCLE)",
+        "phone": "7942696720",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Akhila Bhandarkar",
+        "address": "Uro Health Plus, Medicity Building, Ground Floor, Bunder, Mangalore - 575001 (Opposite Unit Hospital)",
+        "phone": "7942697747",
+        "rating": "4.9"
+      },
+      {
+        "name": "Dr. Shrikrishna V Acharya",
+        "address": "ENDODIAB CLINIC, Classic Arcade, Near Omega Hospital, Pumpwell, Mangalore - 575002 (Ganesh Medical Building)",
+        "phone": "7942699032",
+        "rating": "5.0"
+      },
+      {
+        "name": "Dr. Shrinath Pratap Shetty",
+        "address": "Room No.0011, 2nd Floor, Kmc Hospital Dr.B R Ambedkar Circle, Mangalore - 575002",
+        "phone": "7942701026",
+        "rating": "4.9"
+      },
+      {
+        "name": "Dr. Dinesha",
+        "address": "Essel Willcon Building 1st Floor, Kankanady Road, Bendoorwell, Mangalore - 575002 (Above Radha Medical,Bendoorwell Circle ,Kankanady)",
+        "phone": "0824-2982482",
+        "rating": "5.0"
+      },
+      {
+        "name": "Dr. Chandrashekar J Sorake",
+        "address": "SCS Hospital Pvt. Ltd, 2nd Floor, Upper Bendoor, Bendoor, Mangalore - 575002",
+        "phone": "8511988615",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. Priyatham Kamath",
+        "address": "1st Floor, N SQUARE COMPLEX, Derebail, Mangalore - 575006 (Derebail Konchady)",
+        "phone": "7947430484",
+        "rating": "4.9"
+      },
+      {
+        "name": "Dr. Siddharth Mulki",
+        "address": "Doctors Lounge Polyclinic, Ramarathna Complex, Pandeshwar Road, Pandeshwar, Mangalore - 575001 (Opposite to Allahabad Bank)",
+        "phone": "7947430835",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. K Gururaja Rao",
+        "address": "Dr Br Ambedkar Circle, Balmatta Road, Attavar, Mangalore - 575001 (Opposite Jyothi Theatre)",
+        "phone": "7947431921",
+        "rating": "3.1"
+      }
+    ]
+  },
+  {
+    "type": "Neurologists",
+    "doctors": [
+      {
+        "name": "Dr. Shruthi N M",
+        "address": "No 524, C/O First Neuro Brain & Spine Super Speciality Hospital, Padil, Mangalore - 575007 (Kannur Village)",
+        "phone": "7942679919",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Rakshith C Kedambadi",
+        "address": "C/O Medicity Clinic, West Gate Terminus, Falnir Road, Mangalore - 575002 (Opposite Unity Health Complex)",
+        "phone": "7947414637",
+        "rating": "3.9"
+      },
+      {
+        "name": "Dr. Shankar N",
+        "address": "C/o. Mallikatta Neuro Centre, KRR Road, Kadri, Mangalore - 575002 (Near HP World Official Store)",
+        "phone": "7942679985",
+        "rating": "4.4"
+      },
+      {
+        "name": "Dr. Rajesh Shetty",
+        "address": "C/O First Neuro Hospital, Kannur Village, Padil, Mangalore - 575006",
+        "phone": "7947414061",
+        "rating": "3.6"
+      },
+      {
+        "name": "Dr. Z K Misri",
+        "address": "C/O KMC Hospital, Jyothi, Balmatta, Mangalore - 575002 (Dr. B. R. Ambedkar Circle)",
+        "phone": "7947415580",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. Shivananda Pai",
+        "address": "C/O KMC Hospital, Jyothi, Balmatta, Mangalore - 575002 (Dr. B. R. Ambedkar Circle)",
+        "phone": "7947415720",
+        "rating": "4.6"
+      },
+      {
+        "name": "Dr. I G Bhat",
+        "address": "Balmatta Complex, Bridge Road, Balmatta, Mangalore - 575002",
+        "phone": "7947417354",
+        "rating": "4.1"
+      },
+      {
+        "name": "Dr. Lekha Pandit",
+        "address": "C/o Justice K S Hegde Charitable Hospital, University Road, Derlakatte, Mangalore - 575018",
+        "phone": "7947417584",
+        "rating": "4.3"
+      },
+      {
+        "name": "Dr. Manjunath Rai",
+        "address": "Ground Floor, Girias Biulding, Mangalore, K S Rao Road, Ks Rao Road, Mangalore - 575001 (Opposite to Punja Arcade)",
+        "phone": "7942680456",
+        "rating": "5.0"
+      },
+      {
+        "name": "Dr. Shivanand Pai",
+        "address": "C/O Wenlock District Hospital, Hampankatta, Mangalore - 575001 (Near Milagres Church, Opposite Taj Mahal Hotel)",
+        "phone": "7942680534",
+        "rating": "3.4"
+      }
+    ]
+  },
+  {
+    "type": "Cardiologists",
+    "doctors": [
+      {
+        "name": "Dr. Abdul Mansoor",
+        "address": "Indiana Hospital and Heart Institute Ltd, Pumpwell, Mangalore - 575002 (Near MAHAVEER CIRCLE)",
+        "phone": "7947431904",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Yusuf A Kumble",
+        "address": "Pumpwell, Mangaluru, Pumpwell, Mangalore - 575002",
+        "phone": "7947433230",
+        "rating": "4.7"
+      },
+      {
+        "name": "Dr. Narasima Pai",
+        "address": "Amritha Polyclinic & Diagnostics, Premavathy Building, Balmatta Road, Balmatta, Mangalore - 575002 (Opposite Hotel Quality, Near Government Womens College, Opposite Tanishq Jewellers)",
+        "phone": "7947434106",
+        "rating": "3.4"
+      },
+      {
+        "name": "Dr. M.N. Bhat",
+        "address": "C/O KMC Hospital, Jyothi, Balmatta, Mangalore - 575002 (Dr. B. R. Ambedkar Circle)",
+        "phone": "7947434491",
+        "rating": "4.9"
+      },
+      {
+        "name": "Dr. Ajay A Kudwa",
+        "address": "C/O I Needs Eye Clinic, I Needs Optical, Surathkal, Mangalore - 575014 (Near Bus Stand)",
+        "phone": "7947435075",
+        "rating": "4.6"
+      },
+      {
+        "name": "Dr. R Purushotham",
+        "address": "Aj Tower, Mangaluru, Upper Bendoor 2nd Cross Road, Balmatta, Mangalore - 575002 (Balmatta)",
+        "phone": "7947435609",
+        "rating": "3.9"
+      },
+      {
+        "name": "Dr. Ramanath L Kamath",
+        "address": "Abhiman Chamber, Ground Floor, Mangaluru, Karangalpady, Karangalpady, Mangalore - 575003 (Near Bunts Hostel)",
+        "phone": "7947435336",
+        "rating": "4.2"
+      },
+      {
+        "name": "Dr. Padmanabha Kamath",
+        "address": "C/O KMC Hospital, Jyothi Street, Balmatta, Mangalore - 575002 (Dr. B. R. Ambedkar Circle)",
+        "phone": "7947127508",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. Yusuf Kumble",
+        "address": "C/O Indiana Hospital & Heart Institute, Mahaveer Circle, Kankanady Post, Pumpwell, Mangalore - 575002",
+        "phone": "7947128243",
+        "rating": "3.9"
+      },
+      {
+        "name": "Dr. A Harish Rao",
+        "address": "Eljay Arcade, First Floor, Sharavu Ganapathi Temple Road, Mangaluru, Hampankatta, Mangalore - 575001",
+        "phone": "7947144112",
+        "rating": "4.7"
+      }
+    ]
+  },
+  {
+    "type": "Pediatricians",
+    "doctors": [
+      {
+        "name": "Dr. Edwin Dias A",
+        "address": "Sulthan Batheri Road, Lady Hill Junction, Mangalore - 575006 (Opposite Lady Hill Girls High School)",
+        "phone": "7947108041",
+        "rating": "3.8"
+      },
+      {
+        "name": "Dr. Shantharam Baliga",
+        "address": "1st Floor, Manjushree Building, Asrp Road, Kodialbail, Mangalore - 575003 (Nearby Pvs Nav Bharat Circle)",
+        "phone": "9035272936",
+        "rating": "4.3"
+      },
+      {
+        "name": "Dr. Varun Shetty",
+        "address": "Ground Floor Jyothi Diagnostic, Balmatta Road, Hampankatta, Mangalore - 575001 (Opposite Hotel Roopa)",
+        "phone": "8490044898",
+        "rating": "5.0"
+      },
+      {
+        "name": "Dr. Narendra Kamath",
+        "address": "Manasa Tower, Cutis 2nd Floor, MG Road, Kodialbail, Mangalore - 575003 (P V S Circle)",
+        "phone": "7947436065",
+        "rating": "4.3"
+      },
+      {
+        "name": "Dr. Mario J Bukelo",
+        "address": "SCS HOSPITAL, Upper Bendur, Hampankatta, Mangalore - 575001 (Next Bhima Jewellers)",
+        "phone": "7947109900",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Abhishek K. Phadke",
+        "address": "Pumpwell Cir, Nanthoor, Kadri, Mangalore - 575002",
+        "phone": "7947103113",
+        "rating": "4.8"
+      },
+      {
+        "name": "Dr. Shankar N",
+        "address": "C/o. Mallikatta Neuro Centre, KRR Road, Kadri, Mangalore - 575002 (Near HP World Official Store)",
+        "phone": "7947106805",
+        "rating": "4.4"
+      },
+      {
+        "name": "Dr. Ali Kumble",
+        "address": "Medicity Complex, 2nd Floor, Highlands, Falnir Road, Mangalore - 575002 (Opposite Unity Hospital)",
+        "phone": "7947103612",
+        "rating": "4.7"
+      },
+      {
+        "name": "Dr. Shankar",
+        "address": "C/o Mallikatta Neuro Centre, Ramakrishna Complex, Mallikatta, Kadri, Mangalore - 575002 (Near Jugulu Hall)",
+        "phone": "7947103878",
+        "rating": "4.3"
+      },
+      {
+        "name": "Dr. Devdas Shenoy",
+        "address": "Sharda Clinic, Kulluru Ferry Road, Urwa, Mangalore - 575006 (Near Dominos Pizza)",
+        "phone": "7947104429",
+        "rating": "4.8"
+      }
+    ]
+  },
+  {
+    "type": "Dermatologists",
+    "doctors": [
+      {
+        "name": "Dr. Akshata C Alva",
+        "address": "Morishka Tower, Bendoor, Mangalore - 575002 (Near Vas Bakery)",
+        "phone": "8460248321",
+        "rating": "4.4"
+      },
+      {
+        "name": "Dr. Anusha Pai",
+        "address": "The Trade Center, Bunts Hostel Road, Mangalore - 575003 (Near Jyothi Circle)",
+        "phone": "7947105127",
+        "rating": "4.7"
+      },
+      {
+        "name": "Dr. Pramod Kumar",
+        "address": "No 209-210, City Plaza, K R R Road, Karangalpady, Mangalore - 575003 (Near Pvs Circle)",
+        "phone": "7942681134",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. Vijetha Rai",
+        "address": "Shuba Krishna Complex, Falnir Road, Mangalore - 575002 (Above Crumbz, Opposite Highland Hospital)",
+        "phone": "7942681200",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. Manjunath Shenoy M",
+        "address": "1st Floor, Hemavathi Building, Jyothi Circle, Balmatta, Mangalore - 575002",
+        "phone": "7947105693",
+        "rating": "4.4"
+      },
+      {
+        "name": "Dr. Pinto Jerome",
+        "address": "DON Bosco Road, Falnir Road, Mangalore - 575002",
+        "phone": "7942681363",
+        "rating": "4.5"
+      },
+      {
+        "name": "Dr. Ganesh Srinivas Pai",
+        "address": "C/O, Derma Care Skin @cosmetology Centre, The Trade Centre, Bunts Hostel Road, Mangalore - 575003 (Opp Hotel Goldfinch)",
+        "phone": "07942689613",
+        "rating": "3.1"
+      },
+      {
+        "name": "Dr. Nanda Kishore B",
+        "address": "C/O Jyothi Diagnostic, City Centre Building, Balmatta, Mangalore - 575002",
+        "phone": "7942690105",
+        "rating": "4.2"
+      },
+      {
+        "name": "Dr. Mayur Rai",
+        "address": "Medicare Center Building, Main Road K R Rao Road, Karangalpady, Mangalore - 575003 (Opposite Pramod Auto Mobile)",
+        "phone": "7942690242",
+        "rating": "4.7"
+      },
+      {
+        "name": "Dr. Sayeeda Mogral",
+        "address": "1st Floor, Millenium Towers, Falnir Road, Mangalore - 575002 (Opp to Highland Hospital)",
+        "phone": "7942690817",
+        "rating": "4.5"
+      }
+    ]
+  },
+  {
+    "type": "Ophthalmologists",
+    "doctors": [
+      {
+        "name": "Dr. Maya Natarajan",
+        "address": "Amritha Eye Care, 2nd Floor, Amritha Multi Speciality Clinic, Attavar, Mangalore - 575001 (Next to Chakrapaani Temple)",
+        "phone": "08511916929",
+        "rating": "4.6"
+      },
+      {
+        "name": "Dr. Ajay R Kamath",
+        "address": "C/o Sri Ramakrishna Eye Clinic, 1st Floor, Prema Plaza, Car Street, Mangalore - 575001 (Near Nandini Dairy)",
+        "phone": "8511994312",
+        "rating": "4.6"
+      },
+      {
+        "name": "Dr. Badrinath Talwar",
+        "address": "Trinity Eye Care Centre No.101, Belvue Apartment, Father Muller Road, Valencia, Mangalore - 575002 (Opposite Axis Bank)",
+        "phone": "7942692258",
+        "rating": "4.4"
+      },
+      {
+        "name": "Dr. Sudhir Hegde",
+        "address": "Sanjeevini West Gate Pride, Falnir Road, Mangalore - 575002 (Opposite Bharath Petroleum)",
+        "phone": "7942693219",
+        "rating": "4.7"
+      },
+      {
+        "name": "Dr. Vishnu Prabhu",
+        "address": "C/o Nayana Nethralaya Eye Hospital, Brigade Plaza, KS road, Karangalpady, Mangalore - 575003",
+        "phone": "7942693050",
+        "rating": "4.1"
+      },
+      {
+        "name": "Dr. Kishor Krishna I",
+        "address": "Maithri Specilality Clinic, Bendoorwell, Mangalore - 575002 (Near Hotel Maya International)",
+        "phone": "7942693329",
+        "rating": "4.0"
+      },
+      {
+        "name": "Dr. Jayaram Shetty",
+        "address": "Abhiman Plaza, Speciality Eye and Contact Lens Clinic, Bunts Hostel Road, Mangalore - 575003 (Near Pai Electronic, Bunts Hostel Circle)",
+        "phone": "7942693357",
+        "rating": "4.3"
+      },
+      {
+        "name": "Dr. Rajesh Nayak R",
+        "address": "1st Floor, SRi Ramnatha, Temple Square, Car Street, Mangalore - 575001 (Opposite to Venkataramna Temple)",
+        "phone": "7942693929",
+        "rating": "4.6"
+      },
+      {
+        "name": "Dr. Sripathi Kamath B",
+        "address": "No.25, 2nd Floor, C/O Nethrajyothi Retina Center Milestone, Landtrades, Balmatta, Mangalore - 575002 (Near Collector Gate Circle)",
+        "phone": "7947413078",
+        "rating": "4.4"
+      },
+      {
+        "name": "Dr. U R Shenoy",
+        "address": "No 3, Vaishnavi Complex, Near New Chitra Talkies, Car Street, Mangalore - 575001 (Dongerkery)",
+        "phone": "7942679701",
+        "rating": "4.2"
+      }
+    ]
+  }
+]

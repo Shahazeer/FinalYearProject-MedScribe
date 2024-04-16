@@ -120,21 +120,20 @@ class ActionSearchDoctors(Action):
 
         doctors = db["Doctors"].find({"type": doctor_type})
 
-        if doctors:
-                doctor_list = []
-                all_doctors = list(doctors["doctors"].values())
-                selected_doctors = random.sample(all_doctors, min(3, len(all_doctors)))
-                for doctor_details in selected_doctors:
-                    doctor_info = f"Name: {doctor_details[0]}\nAddress: {doctor_details[1]}\nPhone: {doctor_details[2]}\nRating: {doctor_details[3]}"
-                    doctor_list.append(doctor_info)
-                if doctor_list:
-                    message = f"Here are some {doctor_type} doctors you can consider:\n\n"
-                    message += "\n\n".join(doctor_list)
-                else:
-                    message = f"Sorry, we couldn't find any {doctor_type} doctors at the moment."
-        else:
-            message = f"Sorry, we couldn't find any {doctor_type} doctors at the moment."
-            
+        doctors_list = list(doctors)
+        if not doctors_list:
+            dispatcher.utter_message(text=f"Sorry, we couldn't find any {doctor_type} doctors at the moment.")
+            return []
+
+        selected_doctors = random.sample(doctors_list[0]["doctors"], min(3, len(doctors_list[0]["doctors"])))
+
+        doctor_responses = []
+        for doctor in selected_doctors:
+            doctor_info = f"Name: {doctor['name']}<br>Address: {doctor['address']}<br>Phone: {doctor['phone']}<br>Rating: {doctor['rating']}<br>--------------------------------------------------------------------------------------------------------------------------------------"
+            doctor_responses.append(doctor_info)
+
+        message = f"Here are some {doctor_type} doctors you can consider:<br><br>"
+        message += "<br><br>".join(doctor_responses)
 
         dispatcher.utter_message(text=message)
 
