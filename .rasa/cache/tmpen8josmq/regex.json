@@ -1,0 +1,6 @@
+[
+  {
+    "name": "drug_name",
+    "pattern": "(\\bparacetamol\\b|\\bcrocin\\b|\\bibuprofen\\b|\\bclonazepam\\b|\\bcopper\\b|\\bmirtazapine\\b|\\bvarenicline\\b|\\bzolpidem\\b|\\bpiogitazone\\b|\\betanercept\\b|\\bescitalopram\\b|\\bangiox\\b|\\bacamprosate\\b|\\bmiconazole\\b|\\blevora\\b|\\bamitriptyline\\b|\\bciprofloxacin\\b|\\barmodafinil\\b|\\bnaloxegol\\b|\\bviscodyne\\b|\\bkevzara\\b|\\benteragam\\b|\\boxybutynin\\b|\\bimiquimod\\b|\\bseroquel\\b|\\blisinopril\\b|\\blofexidine\\b|\\bloratadine\\b|\\bpregabalin\\b|\\bmelatonin\\b|\\bmeloxicam\\b|\\bmetformin\\b|\\bmethadone\\b|\\bmethotrexate\\b|\\bmetoprolol\\b|\\bnaloxone\\b|\\bnaltrexone\\b|\\bnaproxen\\b|\\bomeprazole\\b|\\bpatisiran\\b|\\bapremilast\\b|\\bsemaglutide\\b|\\bpantoprazole\\b|\\bprednisone\\b|\\btramadol\\b|\\btrazodone\\b|\\bbupropion\\b|\\balprazolam\\b|\\bamlodipine\\b|\\bamoxicillin\\b|\\blorazepam\\b|\\bbenzonatate\\b|\\bticagrelor\\b)"
+  }
+]

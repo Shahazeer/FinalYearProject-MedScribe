@@ -231,6 +231,7 @@ nlu:
       - I feel sluggish and heavy
       - I've tried laxatives but they haven't worked
       - I'm worried about my constipation
+      - I have stomach pain
 
   - intent: herbal_remedy
     examples: |
@@ -255,11 +256,11 @@ nlu:
 
   - intent: inform_yes_abdominal_pain
     examples: |
-      - i have abdominal pain
-      - I have a pain in my abdomen
-      - tummy hurts
-      - pain in my stomach
-      - stomach hurts a lot
+      - inform_yes_abdominal_pain
+      - yes i have pain
+  # - tummy hurts
+  # - pain in my stomach
+  # - stomach hurts a lot
 
   - intent: inform_yes_discoloration
     examples: |
