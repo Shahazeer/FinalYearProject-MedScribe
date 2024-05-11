@@ -111,6 +111,135 @@ stories:
       - intent: inform_no_discoloration
       - action: utter_have_jaundice_moderate
 
+  - story: Musculoskeletal Pain Joint Knee Injury Yes
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+      - intent: inform_pain_joint
+      - action: utter_ask_joint_pain_location
+      - intent: inform_pain_knee
+      - action: utter_ask_injury
+      - intent: inform_injury_yes
+      - action: utter_injury_yes
+
+  - story: Musculoskeletal Pain Joint Knee Injury No
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+      - intent: inform_pain_joint
+      - action: utter_ask_joint_pain_location
+      - intent: inform_pain_knee
+      - action: utter_ask_injury
+      - intent: inform_injury_no
+      - action: utter_injury_no
+
+  - story: Musculoskeletal Pain Joint Multiple Stiffness Yes
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+      - intent: inform_pain_joint
+      - action: utter_ask_joint_pain_location
+      - intent: inform_pain_multiple_joints
+      - action: utter_ask_stiffness
+      - intent: inform_stiffness_yes
+      - action: utter_stiffness_yes
+
+  - story: Musculoskeletal Pain Joint Multiple Stiffness Yes
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+      - intent: inform_pain_joint
+      - action: utter_ask_joint_pain_location
+      - intent: inform_pain_multiple_joints
+      - action: utter_ask_stiffness
+      - intent: inform_stiffness_no
+      - action: utter_stiffness_no
+
+  - story: Musculoskeletal Pain Muscle ActivityYes
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+      - intent: inform_pain_muscle
+      - action: utter_ask_after_activity
+      - intent: inform_yes_activity
+      - action: utter_activity_yes
+
+  - story: Musculoskeletal Pain Muscle ActivityNo FeverYes
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+      - intent: inform_pain_muscle
+      - action: utter_ask_after_activity
+      - intent: inform_no_activity
+      - action: utter_activity_no_and_fever
+      - intent: inform_fever_rash_yes
+      - action: utter_fever_rash_yes
+
+  - story: Musculoskeletal Pain Muscle ActivityNo FeverNo
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+      - intent: inform_pain_muscle
+      - action: utter_ask_after_activity
+      - intent: inform_no_activity
+      - action: utter_activity_no_and_fever
+      - intent: inform_fever_rash_no
+      - action: utter_fever_rash_no
+
+  - story: MentalHealth Sad LossofInterestYes
+  steps:
+    - intent: inform_mental_health
+    - action: utter_ask_mental_health_type
+    - intent: inform_feeling_down_sad
+    - action: utter_ask_loss_of_interest
+    - intent: inform_loss_of_interest_yes
+    - action: utter_loss_of_interest_yes
+
+- story: MentalHealth Sad LossofInterestNo
+  steps:
+    - intent: inform_mental_health
+    - action: utter_ask_mental_health_type
+    - intent: inform_feeling_down_sad
+    - action: utter_ask_loss_of_interest
+    - intent: inform_loss_of_interest_no
+    - action: utter_loss_of_interest_no
+
+- story: MentalHealth ExcessiveWorry DifficultyControllingWorryYes
+  steps:
+    - intent: inform_mental_health
+    - action: utter_ask_mental_health_type
+    - intent: inform_excessive_worry
+    - action: utter_ask_difficulty_controlling_worry
+    - intent: inform_difficulty_controlling_worry_yes
+    - action: utter_difficulty_controlling_worry_yes
+
+- story: MentalHealth ExcessiveWorry DifficultyControllingWorryNo
+  steps:
+    - intent: inform_mental_health
+    - action: utter_ask_mental_health_type
+    - intent: inform_excessive_worry
+    - action: utter_ask_difficulty_controlling_worry
+    - intent: inform_difficulty_controlling_worry_no
+    - action: utter_difficulty_controlling_worry_no
+
+- story: MentalHealth SleepProblems DifficultySleepYes
+    - intent: inform_mental_health
+    - action: utter_ask_mental_health_type
+    - intent: inform_sleep_problems
+    - action: utter_ask_difficulty_sleep
+    - intent: inform_difficulty_sleep_yes
+    - action: utter_difficulty_sleep_yes
+
+- story: MentalHealth SleepProblems DifficultySleepNo
+  steps:
+    - intent: inform_mental_health
+    - action: utter_ask_mental_health_type
+    - intent: inform_sleep_problems
+    - action: utter_ask_difficulty_sleep
+    - intent: inform_difficulty_sleep_no
+    - action: utter_difficulty_sleep_no
+
+
   - story: drug name with slots
     steps:
       - intent: problem_drug-info
