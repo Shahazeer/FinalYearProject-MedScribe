@@ -1,0 +1,50 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6902005672454834
+    }
+  },
+  {
+    "text": "4 days",
+    "intent": "long-duration",
+    "intent_prediction": {
+      "name": "small-duration",
+      "confidence": 0.7409700751304626
+    }
+  },
+  {
+    "text": "5 days",
+    "intent": "long-duration",
+    "intent_prediction": {
+      "name": "small-duration",
+      "confidence": 0.7409700751304626
+    }
+  },
+  {
+    "text": "6 days",
+    "intent": "long-duration",
+    "intent_prediction": {
+      "name": "small-duration",
+      "confidence": 0.7409700751304626
+    }
+  },
+  {
+    "text": "18-",
+    "intent": "age-below-18",
+    "intent_prediction": {
+      "name": "small-duration",
+      "confidence": 0.8046554327011108
+    }
+  },
+  {
+    "text": "20+",
+    "intent": "age-above-18",
+    "intent_prediction": {
+      "name": "small-duration",
+      "confidence": 0.8046554327011108
+    }
+  }
+]

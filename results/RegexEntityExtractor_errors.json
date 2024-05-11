@@ -1,0 +1,2690 @@
+[
+  {
+    "text": "I want to know about case_study for 1",
+    "entities": [
+      {
+        "start": 36,
+        "end": 37,
+        "value": "1",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 36,
+        "end": 37,
+        "confidence_entity": 0.9994400143623352,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tell me about case_study for 1",
+    "entities": [
+      {
+        "start": 29,
+        "end": 30,
+        "value": "1",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 29,
+        "end": 30,
+        "confidence_entity": 0.9995850920677185,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can I know about Patient 2",
+    "entities": [
+      {
+        "start": 25,
+        "end": 26,
+        "value": "2",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 25,
+        "end": 26,
+        "confidence_entity": 0.9984928369522095,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "patient 2",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "2",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.9992623925209045,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give case_study for 3",
+    "entities": [
+      {
+        "start": 20,
+        "end": 21,
+        "value": "3",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 20,
+        "end": 21,
+        "confidence_entity": 0.9995772242546082,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Show me case_study related to 4",
+    "entities": [
+      {
+        "start": 30,
+        "end": 31,
+        "value": "4",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 30,
+        "end": 31,
+        "confidence_entity": 0.999573290348053,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you provide information on case_study for 5?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 47,
+        "value": "5",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 46,
+        "end": 47,
+        "confidence_entity": 0.9994338154792786,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm interested in case_study for 6.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 34,
+        "value": "6",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 33,
+        "end": 34,
+        "confidence_entity": 0.999454915523529,
+        "value": "6",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tell me about any case_study regarding 7.",
+    "entities": [
+      {
+        "start": 39,
+        "end": 40,
+        "value": "7",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 39,
+        "end": 40,
+        "confidence_entity": 0.9995156526565552,
+        "value": "7",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Find case_study about 8.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 23,
+        "value": "8",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 22,
+        "end": 23,
+        "confidence_entity": 0.9995436072349548,
+        "value": "8",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to see case_study for 9.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 30,
+        "value": "9",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 29,
+        "end": 30,
+        "confidence_entity": 0.9995324611663818,
+        "value": "9",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Provide me with case_study for 10.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 33,
+        "value": "10",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 31,
+        "end": 33,
+        "confidence_entity": 0.9995896220207214,
+        "value": "10",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fetch case_study related to 11.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 30,
+        "value": "11",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 28,
+        "end": 30,
+        "confidence_entity": 0.9995496869087219,
+        "value": "11",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Retrieve information on case_study for 12.",
+    "entities": [
+      {
+        "start": 39,
+        "end": 41,
+        "value": "12",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 39,
+        "end": 41,
+        "confidence_entity": 0.9995787739753723,
+        "value": "12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'd like to explore case_study for 13.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 37,
+        "value": "13",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9994409680366516,
+        "value": "13",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please show me case_study about 14.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 34,
+        "value": "14",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.999588668346405,
+        "value": "14",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Find me any case_study on 15.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 28,
+        "value": "15",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9995902180671692,
+        "value": "15",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for case_study regarding 16.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 39,
+        "value": "16",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 37,
+        "end": 39,
+        "confidence_entity": 0.999521017074585,
+        "value": "16",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you locate case_study for 17?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 34,
+        "value": "17",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.9995957016944885,
+        "value": "17",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to learn more about 18 through case_study.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 29,
+        "value": "18",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.999494731426239,
+        "value": "18",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you list case_study related to 19?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 37,
+        "value": "19",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.99951171875,
+        "value": "19",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm curious about case_study involving 20.",
+    "entities": [
+      {
+        "start": 39,
+        "end": 41,
+        "value": "20",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 39,
+        "end": 41,
+        "confidence_entity": 0.9995077848434448,
+        "value": "20",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Provide case_study associated with 21.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 37,
+        "value": "21",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9995598196983337,
+        "value": "21",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need case_study specifically for 22.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 37,
+        "value": "22",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9995865225791931,
+        "value": "22",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Are there any case_study available for 23?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 41,
+        "value": "23",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 39,
+        "end": 41,
+        "confidence_entity": 0.999544084072113,
+        "value": "23",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you present case_study focusing on 24?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 43,
+        "value": "24",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 41,
+        "end": 43,
+        "confidence_entity": 0.9995465874671936,
+        "value": "24",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Display case_study pertaining to 25.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 35,
+        "value": "25",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 33,
+        "end": 35,
+        "confidence_entity": 0.9995019435882568,
+        "value": "25",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Show me a case_study for 26",
+    "entities": [
+      {
+        "start": 25,
+        "end": 27,
+        "value": "26",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.9995937943458557,
+        "value": "26",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is the latest case_study for 27?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 36,
+        "value": "27",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 34,
+        "end": 36,
+        "confidence_entity": 0.9995169639587402,
+        "value": "27",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "List all case_study for 28",
+    "entities": [
+      {
+        "start": 24,
+        "end": 26,
+        "value": "28",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 24,
+        "end": 26,
+        "confidence_entity": 0.9996044039726257,
+        "value": "28",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Provide case_study for 29",
+    "entities": [
+      {
+        "start": 23,
+        "end": 25,
+        "value": "29",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 23,
+        "end": 25,
+        "confidence_entity": 0.9995427131652832,
+        "value": "29",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Show case_study related to 30",
+    "entities": [
+      {
+        "start": 27,
+        "end": 29,
+        "value": "30",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9995552897453308,
+        "value": "30",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Display the case_study for 31",
+    "entities": [
+      {
+        "start": 27,
+        "end": 29,
+        "value": "31",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9995909333229065,
+        "value": "31",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you fetch the case_study for 32?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 35,
+        "value": "32",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 33,
+        "end": 35,
+        "confidence_entity": 0.9995269775390625,
+        "value": "32",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'd like to read a case_study about 33",
+    "entities": [
+      {
+        "start": 36,
+        "end": 38,
+        "value": "33",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 36,
+        "end": 38,
+        "confidence_entity": 0.9992782473564148,
+        "value": "33",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the case_study of 34",
+    "entities": [
+      {
+        "start": 26,
+        "end": 28,
+        "value": "34",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9995852112770081,
+        "value": "34",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you give me some case_study for 35?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 40,
+        "value": "35",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 38,
+        "end": 40,
+        "confidence_entity": 0.9994447827339172,
+        "value": "35",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Share case_study on 36",
+    "entities": [
+      {
+        "start": 20,
+        "end": 22,
+        "value": "36",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 20,
+        "end": 22,
+        "confidence_entity": 0.9995546936988831,
+        "value": "36",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need the case_study regarding 37",
+    "entities": [
+      {
+        "start": 32,
+        "end": 34,
+        "value": "37",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.9995835423469543,
+        "value": "37",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you show me the case_study for 38?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 37,
+        "value": "38",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9994483590126038,
+        "value": "38",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please provide a case_study for 39",
+    "entities": [
+      {
+        "start": 32,
+        "end": 34,
+        "value": "39",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.9995822310447693,
+        "value": "39",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tell me the case_study of 40",
+    "entities": [
+      {
+        "start": 26,
+        "end": 28,
+        "value": "40",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9995822310447693,
+        "value": "40",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What are the case_study options for 41?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 38,
+        "value": "41",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 36,
+        "end": 38,
+        "confidence_entity": 0.9995489716529846,
+        "value": "41",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Explain the case_study for 42",
+    "entities": [
+      {
+        "start": 27,
+        "end": 29,
+        "value": "42",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9996188879013062,
+        "value": "42",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you explain the case_study about 43?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 41,
+        "value": "43",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 39,
+        "end": 41,
+        "confidence_entity": 0.9995344877243042,
+        "value": "43",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to know about the case_study with ID 44",
+    "entities": [
+      {
+        "start": 44,
+        "end": 46,
+        "value": "44",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 44,
+        "end": 46,
+        "confidence_entity": 0.9988731741905212,
+        "value": "44",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you provide me with a case_study for 45?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 43,
+        "value": "45",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 41,
+        "end": 43,
+        "confidence_entity": 0.9992928504943848,
+        "value": "45",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm interested in a case_study for 46",
+    "entities": [
+      {
+        "start": 35,
+        "end": 37,
+        "value": "46",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.9993621706962585,
+        "value": "46",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you please show me a case_study about 47?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 46,
+        "value": "47",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 44,
+        "end": 46,
+        "confidence_entity": 0.9992976188659668,
+        "value": "47",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you list case_study about 48?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 32,
+        "value": "48",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 30,
+        "end": 32,
+        "confidence_entity": 0.9995821118354797,
+        "value": "48",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Show me case_study with ID 49",
+    "entities": [
+      {
+        "start": 27,
+        "end": 29,
+        "value": "49",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9994239807128906,
+        "value": "49",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Provide a case_study related to 50",
+    "entities": [
+      {
+        "start": 32,
+        "end": 34,
+        "value": "50",
+        "entity": "patient_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "patient_id",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.9995649456977844,
+        "value": "50",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Find me case studies for COVID-19",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "COVID-19",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9980594515800476,
+        "value": "COVID-19",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me results for lung cancer",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "value": "lung cancer",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 20,
+        "end": 31,
+        "confidence_entity": 0.9967297315597534,
+        "value": "lung cancer",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Show me case studies related to diabetes.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "value": "diabetes",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.9973772764205933,
+        "value": "diabetes",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you provide information on heart disease case studies?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 44,
+        "value": "heart disease",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 31,
+        "end": 44,
+        "confidence_entity": 0.9938419461250305,
+        "value": "heart disease",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm interested in Alzheimer's case studies.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "Alzheimer's",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 18,
+        "end": 29,
+        "confidence_entity": 0.7904132008552551,
+        "value": "Alzheimer's",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tell me about any case studies regarding obesity.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 48,
+        "value": "obesity",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 41,
+        "end": 48,
+        "confidence_entity": 0.9984122514724731,
+        "value": "obesity",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Find case studies about HIV/AIDS.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "HIV/AIDS",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9979081153869629,
+        "value": "HIV/AIDS",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to see case studies for malaria.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "malaria",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.997003972530365,
+        "value": "malaria",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Provide me with case studies for Parkinson's.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 44,
+        "value": "Parkinson's",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 33,
+        "end": 44,
+        "confidence_entity": 0.8257874250411987,
+        "value": "Parkinson's",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fetch case studies related to stroke.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "stroke",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.996884286403656,
+        "value": "stroke",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Retrieve information on breast cancer case studies.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 37,
+        "value": "breast cancer",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 24,
+        "end": 37,
+        "confidence_entity": 0.9932640790939331,
+        "value": "breast cancer",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'd like to explore case studies for schizophrenia.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 50,
+        "value": "schizophrenia",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 37,
+        "end": 50,
+        "confidence_entity": 0.9979473948478699,
+        "value": "schizophrenia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please show me case studies about osteoporosis.",
+    "entities": [
+      {
+        "start": 34,
+        "end": 46,
+        "value": "osteoporosis",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.9974426031112671,
+        "value": "osteoporosis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Find me any case studies on depression.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 38,
+        "value": "depression",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 28,
+        "end": 38,
+        "confidence_entity": 0.9982150793075562,
+        "value": "depression",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for case studies regarding arthritis.",
+    "entities": [
+      {
+        "start": 39,
+        "end": 48,
+        "value": "arthritis",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 39,
+        "end": 48,
+        "confidence_entity": 0.9982234835624695,
+        "value": "arthritis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you locate case studies for multiple sclerosis?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 52,
+        "value": "multiple sclerosis",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 34,
+        "end": 52,
+        "confidence_entity": 0.9967325925827026,
+        "value": "multiple sclerosis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to learn more about autism through case studies.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "autism",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.9975418448448181,
+        "value": "autism",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you list case studies related to Crohn's disease?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 52,
+        "value": "Crohn's disease",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.6071878671646118,
+        "value": "Crohn's disease",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm curious about case studies involving lupus.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 46,
+        "value": "lupus",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 41,
+        "end": 46,
+        "confidence_entity": 0.9975449442863464,
+        "value": "lupus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Provide case studies associated with fibromyalgia.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 49,
+        "value": "fibromyalgia",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 37,
+        "end": 49,
+        "confidence_entity": 0.9973315000534058,
+        "value": "fibromyalgia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need case studies specifically for endometriosis.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 50,
+        "value": "endometriosis",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 37,
+        "end": 50,
+        "confidence_entity": 0.9979548454284668,
+        "value": "endometriosis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Are there any case studies available for bipolar disorder?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 57,
+        "value": "bipolar disorder",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 41,
+        "end": 57,
+        "confidence_entity": 0.9972808361053467,
+        "value": "bipolar disorder",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you present case studies focusing on cystic fibrosis?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 58,
+        "value": "cystic fibrosis",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 43,
+        "end": 58,
+        "confidence_entity": 0.9939427971839905,
+        "value": "cystic fibrosis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Display case studies pertaining to eating disorders.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 51,
+        "value": "eating disorders",
+        "entity": "search_string"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_string",
+        "start": 35,
+        "end": 51,
+        "confidence_entity": 0.9928703308105469,
+        "value": "eating disorders",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need to find a cardiologist.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "cardiologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.9990882873535156,
+        "value": "cardiologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you help me locate a pediatrician?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 37,
+        "value": "pediatrician",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 25,
+        "end": 37,
+        "confidence_entity": 0.9984390139579773,
+        "value": "pediatrician",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for a dermatologist nearby.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "value": "dermatologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.9990716576576233,
+        "value": "dermatologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you assist me in finding an orthopedic surgeon?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 52,
+        "value": "orthopedic surgeon",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 34,
+        "end": 52,
+        "confidence_entity": 0.9885182976722717,
+        "value": "orthopedic surgeon",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'd like to find an ENT specialist for a consultation.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 34,
+        "value": "ENT specialist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.9863688349723816,
+        "value": "ENT specialist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Do you know where I can find a neurologist in this area?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 42,
+        "value": "neurologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 42,
+        "confidence_entity": 0.9986560344696045,
+        "value": "neurologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm searching for an ophthalmologist to get my eyes checked.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 36,
+        "value": "ophthalmologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 36,
+        "confidence_entity": 0.9989292025566101,
+        "value": "ophthalmologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you help me locate a psychiatrist for therapy sessions?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 37,
+        "value": "psychiatrist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 25,
+        "end": 37,
+        "confidence_entity": 0.9985780715942383,
+        "value": "psychiatrist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need to schedule an appointment with a gynecologist as soon as possible.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 53,
+        "value": "gynecologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 41,
+        "end": 53,
+        "confidence_entity": 0.9986132979393005,
+        "value": "gynecologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Is there a urologist available for consultation today?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "urologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.998664140701294,
+        "value": "urologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you recommend a good oncologist in the city?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 37,
+        "value": "oncologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.9990363121032715,
+        "value": "oncologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for a dentist for a routine check-up.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "dentist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9972355365753174,
+        "value": "dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you help me find a podiatrist who specializes in foot care?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "value": "podiatrist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.9984804391860962,
+        "value": "podiatrist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need to see a rheumatologist for my joint pain.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 30,
+        "value": "rheumatologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 30,
+        "confidence_entity": 0.999049723148346,
+        "value": "rheumatologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Do you know where I can find a nutritionist for dietary advice?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 43,
+        "value": "nutritionist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 43,
+        "confidence_entity": 0.9980278015136719,
+        "value": "nutritionist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm searching for a psychologist for counseling sessions.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 32,
+        "value": "psychologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 20,
+        "end": 32,
+        "confidence_entity": 0.9989107847213745,
+        "value": "psychologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Could you assist me in finding a physiotherapist for my back pain?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 48,
+        "value": "physiotherapist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 33,
+        "end": 48,
+        "confidence_entity": 0.9983479976654053,
+        "value": "physiotherapist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'd like to consult with an endocrinologist regarding my thyroid condition.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 43,
+        "value": "endocrinologist",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 28,
+        "end": 43,
+        "confidence_entity": 0.9981721639633179,
+        "value": "endocrinologist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "bp is 150/90",
+    "entities": [
+      {
+        "start": 6,
+        "end": 12,
+        "value": "150/90",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.9983935952186584,
+        "value": "150/90",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My blood pressure reading is 140/90",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "140/90",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9986594915390015,
+        "value": "140/90",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My blood pressure is 120/80",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "120/80",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9986453652381897,
+        "value": "120/80",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have a blood pressure reading of 130/85",
+    "entities": [
+      {
+        "start": 35,
+        "end": 41,
+        "value": "130/85",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.9985729455947876,
+        "value": "130/85",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Blood pressure is 110/70 today",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "110/70",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9984676241874695,
+        "value": "110/70",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Today's blood pressure reading is 125/82",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "125/82",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.998544454574585,
+        "value": "125/82",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I measured my blood pressure, and it's 135/88",
+    "entities": [
+      {
+        "start": 39,
+        "end": 45,
+        "value": "135/88",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.998418927192688,
+        "value": "135/88",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The blood pressure monitor shows 122/78",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "122/78",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.9986423850059509,
+        "value": "122/78",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "145/95 is my blood pressure reading",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "145/95",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9978429675102234,
+        "value": "145/95",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My blood pressure is 130/85 mmHg",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "130/85",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.998628556728363,
+        "value": "130/85",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Blood pressure reading is 140/90 mmHg",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "140/90",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.9986562728881836,
+        "value": "140/90",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have a reading of 118/76 for my blood pressure",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "118/76",
+        "entity": "blood_pressure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "blood_pressure",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.9986729621887207,
+        "value": "118/76",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My body temperature is 37.5",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "37.5",
+        "entity": "body_temp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "body_temp",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9957719445228577,
+        "value": "37.5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "29 temperature",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "29",
+        "entity": "body_temp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "body_temp",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9959747195243835,
+        "value": "29",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "temp is 29",
+    "entities": [
+      {
+        "start": 8,
+        "end": 10,
+        "value": "29",
+        "entity": "body_temp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "body_temp",
+        "start": 8,
+        "end": 10,
+        "confidence_entity": 0.9931882619857788,
+        "value": "29",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "temperature is 34",
+    "entities": [
+      {
+        "start": 15,
+        "end": 17,
+        "value": "34",
+        "entity": "body_temp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "body_temp",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9938363432884216,
+        "value": "34",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have a body temperature of 40",
+    "entities": [
+      {
+        "start": 29,
+        "end": 31,
+        "value": "40",
+        "entity": "body_temp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "body_temp",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.9546104669570923,
+        "value": "40",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "36 is my temperature",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "36",
+        "entity": "body_temp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "body_temp",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9955942630767822,
+        "value": "36",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]
