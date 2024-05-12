@@ -25,6 +25,19 @@ intents:
   - inform_yes_abdominal_pain
   - inform_yes_discoloration
   - inform_no_discoloration
+  - inform_pain
+  - inform_pain_joint
+  - inform_pain_muscle
+  - inform_pain_knee
+  - inform_pain_multiple_joints
+  - inform_injury_yes
+  - inform_injury_no
+  - inform_stiffness_yes
+  - inform_stiffness_no
+  - inform_yes_activity
+  - inform_no_activity
+  - inform_fever_rash_yes
+  - inform_fever_rash_no
   - affirm
   - deny
   - session_start
@@ -161,6 +174,75 @@ responses:
 
   utter_have_jaundice_moderate:
     - text: "While you're showing some signs of jaundice with slight yellowing, it doesn't seem severe at the moment. However, it's still important to consult a doctor promptly for a proper diagnosis and to rule out any underlying issues."
+
+  utter_ask_pain_location:
+    - text: "Where is the pain located?"
+      buttons:
+        - title: "Joint Pain"
+          payload: "/inform_pain_joint"
+        - title: "Muscle Pain"
+          payload: "/inform_pain_muscle"
+
+  utter_ask_joint_pain_location:
+    - text: "Which joint is experiencing pain?"
+      buttons:
+        - title: "Knee"
+          payload: "/inform_pain_knee"
+        - title: "Multiple Joints"
+          payload: "/inform_pain_multiple_joints"
+
+  utter_ask_injury:
+    - text: "Did you previously have an injury"
+      buttons:
+        - title: "Yes"
+          payload: "/inform_injury_yes"
+        - title: "No"
+          payload: "/inform_injury_no"
+
+  utter_injury_yes:
+    - text: "Possible Sprain/Strain"
+
+  utter_injury_no:
+    - text: "Possible Osteoarthritis or Rheumatoid Arthritis"
+
+  utter_ask_stiffness:
+    - text: "Did you have morning stiffness"
+      buttons:
+        - title: "Yes"
+          payload: "/inform_stiffness_yes"
+        - title: "No"
+          payload: "/inform_stiffness_no"
+
+  utter_stiffness_yes:
+    - text: "Possible Rheumatoid Arthritis"
+
+  utter_stiffness_no:
+    - text: "Possible Osteoarthritis or Lupus"
+
+  utter_ask_after_activity:
+    - text: "Did you have pain after a physical activity?"
+      buttons:
+        - title: "Yes"
+          payload: "/inform_yes_activity"
+        - title: "No"
+          payload: "/inform_no_activity"
+
+  utter_activity_yes:
+    - text: "Possible Muscle Strain"
+
+  utter_activity_no_and_fever:
+    - text: "Do you have a Fever/Rash?"
+      buttons:
+        - title: "Yes"
+          payload: "/inform_fever_rash_yes"
+        - title: "No"
+          payload: "/inform_fever_rash_no"
+
+  utter_fever_rash_yes:
+    - text: "Consult a doctor (Possible infection)"
+
+  utter_fever_rash_no:
+    - text: "Consider other causes"
 
   utter_goodbye:
     - text: Goodbye! Have a good day

@@ -256,8 +256,8 @@ nlu:
 
   - intent: inform_yes_abdominal_pain
     examples: |
-      - inform_yes_abdominal_pain
-      - yes i have pain
+      - /inform_yes_abdominal_pain
+  # - yes i have pain
   # - tummy hurts
   # - pain in my stomach
   # - stomach hurts a lot
@@ -275,6 +275,63 @@ nlu:
       - not much color change
       - a little yellow
       - a slight color change
+
+  - intent: inform_pain
+    examples: |
+      - i have pain
+      - I'm experiencing pain in my joint
+      - i have skeletal pain
+      - I'm having pain in my join
+      - there is pain in my joint
+      - i have pain
+
+  - intent: inform_pain_joint
+    examples: |
+      - /inform_pain_joint
+
+  - intent: inform_pain_muscle
+    examples: |
+      - /inform_pain_muscle
+
+  - intent: inform_pain_knee
+    examples: |
+      - /inform_pain_knee
+
+  - intent: inform_pain_multiple_joints
+    examples: |
+      - /inform_pain_multiple_joints
+
+  - intent: inform_injury_yes
+    examples: |
+      - /inform_injury_yes
+
+  - intent: inform_injury_no
+    examples: |
+      - /inform_injury_no
+
+  - intent: inform_stiffness_yes
+    examples: |
+      - /inform_stiffness_yes
+
+  - intent: inform_stiffness_no
+    examples: |
+      - /inform_stiffness_no
+
+  - intent: inform_yes_activity
+    examples: |
+      - /inform_yes_activity
+
+  - intent: inform_no_activity
+    examples: |
+      - /inform_no_activity
+
+  - intent: inform_fever_rash_yes
+    examples: |
+      - /inform_fever_rash_yes
+
+  - intent: inform_fever_rash_no
+    examples: |
+      - /inform_fever_rash_no
 
   - intent: greet
     examples: |

@@ -93,6 +93,71 @@ rules:
       - intent: inform_yes_abdominal_pain
       - action: utter_ask_discoloration
 
+  - rule: Ask pain location
+    steps:
+      - intent: inform_pain
+      - action: utter_ask_pain_location
+
+  - rule: Tell joint pain
+    steps:
+      - intent: inform_pain_joint
+      - action: utter_ask_joint_pain_location
+
+  - rule: Tell muscle pain
+    steps:
+      - intent: inform_pain_muscle
+      - action: utter_ask_after_activity
+
+  - rule: Tell knee pain
+    steps:
+      - intent: inform_pain_knee
+      - action: utter_ask_injury
+
+  - rule: Tell multiple joints pain
+    steps:
+      - intent: inform_pain_multiple_joints
+      - action: utter_ask_stiffness
+
+  - rule: Tell injury yes
+    steps:
+      - intent: inform_injury_yes
+      - action: utter_injury_yes
+
+  - rule: Tell injury no
+    steps:
+      - intent: inform_injury_no
+      - action: utter_injury_no
+
+  - rule: Tell stiffness yes
+    steps:
+      - intent: inform_stiffness_yes
+      - action: utter_stiffness_yes
+
+  - rule: Tell stiffness yes
+    steps:
+      - intent: inform_stiffness_no
+      - action: utter_stiffness_no
+
+  - rule: Tell after activity yes
+    steps:
+      - intent: inform_yes_activity
+      - action: utter_activity_yes
+
+  - rule: Tell after activity no
+    steps:
+      - intent: inform_no_activity
+      - action: utter_activity_no_and_fever
+
+  - rule: Tell fever yes
+    steps:
+      - intent: inform_fever_rash_yes
+      - action: utter_fever_rash_yes
+
+  - rule: Tell fever no
+    steps:
+      - intent: inform_fever_rash_no
+      - action: utter_fever_rash_no
+
   - rule: fallback
     steps:
       - intent: nlu_fallback

@@ -111,7 +111,7 @@ stories:
       - intent: inform_no_discoloration
       - action: utter_have_jaundice_moderate
 
-  - story: Musculoskeletal Pain Joint Knee Injury Yes
+  - story: Musculoskeletal Pain Joint Knee InjuryYes
     steps:
       - intent: inform_pain
       - action: utter_ask_pain_location
@@ -122,7 +122,7 @@ stories:
       - intent: inform_injury_yes
       - action: utter_injury_yes
 
-  - story: Musculoskeletal Pain Joint Knee Injury No
+  - story: Musculoskeletal Pain Joint Knee InjuryNo
     steps:
       - intent: inform_pain
       - action: utter_ask_pain_location
@@ -133,7 +133,7 @@ stories:
       - intent: inform_injury_no
       - action: utter_injury_no
 
-  - story: Musculoskeletal Pain Joint Multiple Stiffness Yes
+  - story: Musculoskeletal Pain Joint Multiple StiffnessYes
     steps:
       - intent: inform_pain
       - action: utter_ask_pain_location
@@ -144,7 +144,7 @@ stories:
       - intent: inform_stiffness_yes
       - action: utter_stiffness_yes
 
-  - story: Musculoskeletal Pain Joint Multiple Stiffness Yes
+  - story: Musculoskeletal Pain Joint Multiple StiffnessNo
     steps:
       - intent: inform_pain
       - action: utter_ask_pain_location
@@ -185,60 +185,6 @@ stories:
       - action: utter_activity_no_and_fever
       - intent: inform_fever_rash_no
       - action: utter_fever_rash_no
-
-  - story: MentalHealth Sad LossofInterestYes
-  steps:
-    - intent: inform_mental_health
-    - action: utter_ask_mental_health_type
-    - intent: inform_feeling_down_sad
-    - action: utter_ask_loss_of_interest
-    - intent: inform_loss_of_interest_yes
-    - action: utter_loss_of_interest_yes
-
-- story: MentalHealth Sad LossofInterestNo
-  steps:
-    - intent: inform_mental_health
-    - action: utter_ask_mental_health_type
-    - intent: inform_feeling_down_sad
-    - action: utter_ask_loss_of_interest
-    - intent: inform_loss_of_interest_no
-    - action: utter_loss_of_interest_no
-
-- story: MentalHealth ExcessiveWorry DifficultyControllingWorryYes
-  steps:
-    - intent: inform_mental_health
-    - action: utter_ask_mental_health_type
-    - intent: inform_excessive_worry
-    - action: utter_ask_difficulty_controlling_worry
-    - intent: inform_difficulty_controlling_worry_yes
-    - action: utter_difficulty_controlling_worry_yes
-
-- story: MentalHealth ExcessiveWorry DifficultyControllingWorryNo
-  steps:
-    - intent: inform_mental_health
-    - action: utter_ask_mental_health_type
-    - intent: inform_excessive_worry
-    - action: utter_ask_difficulty_controlling_worry
-    - intent: inform_difficulty_controlling_worry_no
-    - action: utter_difficulty_controlling_worry_no
-
-- story: MentalHealth SleepProblems DifficultySleepYes
-    - intent: inform_mental_health
-    - action: utter_ask_mental_health_type
-    - intent: inform_sleep_problems
-    - action: utter_ask_difficulty_sleep
-    - intent: inform_difficulty_sleep_yes
-    - action: utter_difficulty_sleep_yes
-
-- story: MentalHealth SleepProblems DifficultySleepNo
-  steps:
-    - intent: inform_mental_health
-    - action: utter_ask_mental_health_type
-    - intent: inform_sleep_problems
-    - action: utter_ask_difficulty_sleep
-    - intent: inform_difficulty_sleep_no
-    - action: utter_difficulty_sleep_no
-
 
   - story: drug name with slots
     steps:
