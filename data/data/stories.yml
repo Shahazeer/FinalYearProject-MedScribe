@@ -223,6 +223,7 @@ stories:
       - action: utter_difficulty_controlling_worry_no
 
   - story: MentalHealth SleepProblems DifficultySleepYes
+    steps:
       - intent: inform_mental_health
       - action: utter_ask_mental_health_type
       - intent: inform_sleep_problems

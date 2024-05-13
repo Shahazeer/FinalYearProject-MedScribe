@@ -333,6 +333,50 @@ nlu:
     examples: |
       - /inform_fever_rash_no
 
+  - intent: inform_mental_health
+    examples: |
+      - I'm feeling sad.
+      - I worry too much.
+      - I can't sleep well.
+      - I've lost interest in things.
+      - I feel down most days.
+
+  - intent: inform_feeling_down_sad
+    examples: |
+      - /inform_feeling_down_sad
+
+  - intent: inform_loss_of_interest_yes
+    examples: |
+      - /inform_loss_of_interest_yes
+
+  - intent: inform_loss_of_interest_no
+    examples: |
+      - /inform_loss_of_interest_no
+
+  - intent: inform_excessive_worry
+    examples: |
+      - /inform_excessive_worry
+
+  - intent: inform_difficulty_controlling_worry_yes
+    examples: |
+      - /inform_difficulty_controlling_worry_yes
+
+  - intent: inform_difficulty_controlling_worry_no
+    examples: |
+      - /inform_difficulty_controlling_worry_no
+
+  - intent: inform_sleep_problems
+    examples: |
+      - /inform_sleep_problems
+
+  - intent: inform_difficulty_sleep_yes
+    examples: |
+      - /inform_difficulty_sleep_yes
+
+  - intent: inform_difficulty_sleep_no
+    examples: |
+      - /inform_difficulty_sleep_no
+
   - intent: greet
     examples: |
       - hey

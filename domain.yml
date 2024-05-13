@@ -38,6 +38,16 @@ intents:
   - inform_no_activity
   - inform_fever_rash_yes
   - inform_fever_rash_no
+  - inform_mental_health
+  - inform_feeling_down_sad
+  - inform_loss_of_interest_yes
+  - inform_loss_of_interest_no
+  - inform_excessive_worry
+  - inform_difficulty_controlling_worry_yes
+  - inform_difficulty_controlling_worry_no
+  - inform_sleep_problems
+  - inform_difficulty_sleep_yes
+  - inform_difficulty_sleep_no
   - affirm
   - deny
   - session_start
@@ -243,6 +253,59 @@ responses:
 
   utter_fever_rash_no:
     - text: "Consider other causes"
+
+  utter_ask_mental_health_type:
+    - text: "Can I know your primary concern?"
+      buttons:
+        - title: "Feeling Down/Sad"
+          payload: "/inform_feeling_down_sad"
+        - title: "Excessive Worry"
+          payload: "/inform_excessive_worry"
+        - title: "Sleep Problems"
+          payload: "/inform_sleep_problems"
+
+  utter_ask_loss_of_interest:
+    - text: "Do you have loss of interest in activities"
+      buttons:
+        - title: "Yes"
+          payload: "/inform_loss_of_interest_yes"
+        - title: "No"
+          payload: "/inform_loss_of_interest_no"
+
+  utter_loss_of_interest_yes:
+    - text: "Possible Depression"
+
+  utter_loss_of_interest_no:
+    - text: "Consider other causes or consult a mental health professional"
+
+  utter_ask_difficulty_controlling_worry:
+    - text: "Do you have difficulty controlling worry?"
+      buttons:
+        - title: "Yes"
+          payload: "/inform_difficulty_controlling_worry_yes"
+        - title: "No"
+          payload: "/inform_difficulty_controlling_worry_no"
+
+  utter_difficulty_controlling_worry_yes:
+    - text: "Possible Anxiety Disorder"
+
+  utter_difficulty_controlling_worry_no:
+    - text: "Consider other causes or consult a mental health professional"
+
+  utter_ask_difficulty_sleep:
+    - text: "Do you have difficulty falling/staying asleep?"
+      buttons:
+        - title: "Yes"
+          payload: "/inform_difficulty_sleep_yes"
+        - title: "No"
+          payload: "/inform_difficulty_sleep_no"
+
+  utter_difficulty_sleep_yes:
+    - text: "Possible Insomnia or other sleep disorder. Consider consulting a doctor."
+
+  utter_difficulty_sleep_no:
+    - text: "Consider other causes"
+
 
   utter_goodbye:
     - text: Goodbye! Have a good day

@@ -158,6 +158,56 @@ rules:
       - intent: inform_fever_rash_no
       - action: utter_fever_rash_no
 
+  - rule: Inform mental health
+    steps:
+      - intent: inform_mental_health
+      - action: utter_ask_mental_health_type
+
+  - rule: Inform feeling down sad
+    steps:
+      - intent: inform_feeling_down_sad
+      - action: utter_ask_loss_of_interest
+
+  - rule: Inform loss of interest yes
+    steps:
+      - intent: inform_loss_of_interest_yes
+      - action: utter_loss_of_interest_yes
+
+  - rule: Inform loss of interest no
+    steps:
+      - intent: inform_loss_of_interest_no
+      - action: utter_loss_of_interest_no
+
+  - rule: Inform excessive worry
+    steps:
+      - intent: inform_excessive_worry
+      - action: utter_ask_difficulty_controlling_worry
+
+  - rule: Inform difficulty controlling worry yes
+    steps:
+      - intent: inform_difficulty_controlling_worry_yes
+      - action: utter_difficulty_controlling_worry_yes
+
+  - rule: Inform difficulty controlling worry no
+    steps:
+      - intent: inform_difficulty_controlling_worry_no
+      - action: utter_difficulty_controlling_worry_no
+
+  - rule: Inform sleep problems
+    steps:
+      - intent: inform_sleep_problems
+      - action: utter_ask_difficulty_sleep
+
+  - rule: Inform difficulty sleep yes
+    steps:
+      - intent: inform_difficulty_sleep_yes
+      - action: utter_difficulty_sleep_yes
+
+  - rule: Inform difficulty sleep no
+    steps:
+      - intent: inform_difficulty_sleep_no
+      - action: utter_difficulty_sleep_no
+
   - rule: fallback
     steps:
       - intent: nlu_fallback
